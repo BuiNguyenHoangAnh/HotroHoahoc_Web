@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+    <link href="css/reset.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Baumans|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <link href="css/login.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="blueLine"></div>
+    <header>
+        <a href="#" id="logoTrangChu"><img src="images/logo.png" alt="Logo"/></a>
+        <a href="#" id="textTrangChu">&#8592; Trang chủ</a>
+    </header>
+
+    <div class="main">
+        <div class="container content">
+            <div>
+                <img src="images/logo.png" alt="Logo" />
+            </div>
+
+            <div class="loi">
+                <div id="loi">(*) Hai trường mật khẩu không trùng nhau.</div>
+            </div>
+
+            <div class="title">
+                <div class="grayLine"></div>
+                <div>Nhập mật khẩu</div>
+                <div class="grayLine"></div>
+            </div>
+
+            <form method="post" action="#">
+                <input type="password" id="newPassword" name="newPassword" placeholder="Mật khẩu mới" required><br/>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Nhập lại mật khẩu" required onkeyup="check();"><br/>
+                <button type="submit"><i class="fa fa-sign-in-alt"></i> Đồng ý</button>
+            </form>
+        </div>
+
+        <script>
+            function check() {
+                if (document.getElementById('newPassword').value == document.getElementById('confirmPassword').value) {
+                    document.getElementById('loi').style.display = "none";
+                } else {
+                    document.getElementById('loi').style.display = "block";
+                }
+            }
+        </script>
+    </div>
+
+    <footer>
+        Copyright &copy; 2018 AHA Team
+    </footer>
+</body>
+
+</html>

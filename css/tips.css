@@ -1,0 +1,14 @@
+#logoTrangChu {
+    position: relative;
+    display: block;
+    margin: 0 auto 0 70px;
+    left: 0;
+}
+
+header {
+    /* background-color: #2AFFFF;*/
+    /*background-color: white;*/
+    background-color: #f4f4f4;
+    /*background: linear-gradient(grey, white);*/
+    margin-bottom: 10px;
+}

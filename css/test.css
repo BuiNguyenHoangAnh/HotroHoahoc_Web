@@ -1,0 +1,270 @@
+#logoTrangChu {
+    position: relative;
+    display: block;
+    margin: 0 auto 0 70px;
+    left: 0;
+}
+
+
+header {
+   /* background-color: #2AFFFF;*/
+    /*background-color: white;*/
+    background-color: #f4f4f4;
+    /*background: linear-gradient(grey, white);*/
+}
+
+.main {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 89%;
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.content {
+    border-radius: 10px;
+    max-width: 900px;
+    background-color: white;
+    height: 500px;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+
+/* left */
+
+.left {
+    font-family: 'Open sans', sans-serif;
+    height: 100%;
+    width: 200px;
+    top: 0;
+    left: 0;
+    background-color: #EFF5F9;
+    overflow-x: hidden;
+    position: relative;
+    float: left;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.left_lamBai {
+    font-family: 'Open sans', sans-serif;
+    height: 100%;
+    width: 200px;
+    top: 0;
+    left: 0;
+    background-color: #EFF5F9;
+    overflow-x: hidden;
+    position: relative;
+    float: left;
+    padding-top: 30px;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.left a {
+    text-align: left;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #8027D8;
+    display: block;
+    background-color: #EFF5F9;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.left a:hover {
+    background-color: orchid;
+    color: white;
+}
+
+.left > .blueLine {
+    height: 1px;
+    background-color: #8027D8;
+    margin: auto 15px auto 15px;
+    width: 170px;
+}
+
+.accordion {
+    background-color: #2AFFFF;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin-top: 10px;
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.panel > .blueLine {
+    height: 1px;
+}
+
+/* right */
+
+.right {
+    width: 640px;
+    height: 100%;
+    float: left;
+    margin-left: 30px;
+    overflow-y: auto;
+    position: relative;
+    display: block;
+    overflow-y: auto;
+}
+
+.right_LamBai {
+    width: 640px;
+    height: 100%;
+    float: left;
+    margin-left: 30px;
+    overflow-y: auto;
+    position: relative;
+    display: block;
+}
+
+.nopBai{
+    width: 100%;
+    display: block;
+    text-align: right;
+    padding-right: 15px;
+}
+
+button{
+    font-family: 'Open sans', sans-serif;
+    border: none;
+    background-color: #2AFFFF;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 15px 0;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
+.content::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.image {
+    position: relative;
+    display: block;
+}
+
+article::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.img-tips {
+    width: 200px;
+    height: 130px;
+    float: left;
+}
+
+.zoom-in {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 130px;
+    background: #000 url("../images/eye.jpg") center center no-repeat;
+    z-index: 1;
+    opacity: 0;
+}
+
+.zoom-in:hover {
+    opacity: 0.5;
+}
+
+figcaption {
+    line-height: 25px;
+    font-size: 14px;
+    width: 250px;
+    float: left;
+    margin-left: 40px;
+}
+
+figcaption strong {
+    border-bottom: 1px solid #d6d0c1;
+    padding-bottom: 7px;
+    margin: 5px 0;
+    display: block;
+}
+
+.tenDe{
+    position: relative;
+}
+
+.tenDe::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.tenDe>h5{
+    font-family: 'Baumans';
+    display: block;
+    width: auto;
+    float: left;
+}
+
+.timer{
+    float: left;
+    display: block;
+    width: auto;
+}
+
+form{
+    width: 100%;
+    height: 425px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-left: 10px;
+}
+/* footer */
+
+footer {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-size: 1em;
+    font-family: 'Open sans', sans-serif;
+    color: #90A4AE;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

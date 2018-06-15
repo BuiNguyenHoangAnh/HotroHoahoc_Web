@@ -1,0 +1,81 @@
+#logoTrangChu {
+    position: relative;
+    display: block;
+    margin: 0 auto 0 70px;
+    left: 0;
+}
+
+
+header {
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-size: 1em;
+    font-family: 'Open sans', sans-serif;
+    color: #90A4AE;
+    position: relative;
+    margin-top: 10px;
+}
+
+.main {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.content {
+    width: 840px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+}
+
+.thongTin {
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 5px;
+
+}
+
+.dapAn {
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.dapAn::after {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 150px;
+    float: left;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}

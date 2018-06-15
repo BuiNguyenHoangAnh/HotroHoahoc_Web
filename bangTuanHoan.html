@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js no-svg">
+
+<head>
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Baumans|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <link href="css/bangTuanHoan.css" rel="stylesheet" />
+    <link href="css/tab.css" rel="stylesheet" />
+    <link href="css/sidebar.css" rel="stylesheet" />
+    <link href="css/all.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/sidebar.js" type="text/javascript"></script>
+    <script src="js/jquery-1.8.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/table.css">
+    <script src="js/table.js"></script>
+    <title>Bảng tuần hoàn | Hỗ trợ hóa học</title>
+</head>
+
+<body>
+    <div id="mySideNav" class="sideNav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="blackLine"></div>
+        <a href="#"><i class="far fa-newspaper"></i> Tin tức</a>
+        <div class="blackLine"></div>
+        <a href="#"><i class="fa fa-phone"></i> Liên lạc</a>
+        <div class="blackLine"></div>
+        <a href="#"><i class="far fa-envelope"></i> Đóng góp</a>
+        <div class="blackLine"></div>
+        <a href="#"><i class="fa fa-user"></i> Tài khoản</a>
+        <div class="blackLine"></div>
+        <a href="#"><i class="fa fa-user"></i> Giới thiệu</a>
+        <div class="blackLine"></div>
+    </div>
+
+    <div class="blueLine"></div>
+    <header>
+        <div style="font-size:30px;cursor:pointer" onclick="openNav()" class="sideBar">&#9776;</div>
+        <a href="#" id="logoTrangChu"><img src="images/logo.png" alt="Logo"/></a>
+    </header>
+
+    <div class="wrapper">
+        <ul class="main">
+
+            <!-- ROW 1 -->
+            <div data-pos="1" data-nb="1.0079" class="type-1 cat-2" id="h"><a href="#1">H<span>Hydrogen</span></a></div>
+
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div data-pos="2" data-nb="4.0026" class="type-2 cat-2" id="he">He<span>Helium</span></div>
+
+            <!-- ROW 2 -->
+
+            <div data-pos="3" data-nb="6.941" class="type-3 cat-0" id="li">Li<span>Lithium</span></div>
+            <div data-pos="4" data-nb="9.0122" class="type-4 cat-0" id="be">Be<span>Beryllium</span></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div data-pos="5" data-nb="10.811" class="type-5 cat-0" id="b">B<span>Boron</span></div>
+            <div data-pos="6" data-nb="12.011" class="type-5 cat-0" id="c">C<span>Carbon</span></div>
+            <div data-pos="7" data-nb="14.007" class="type-5 cat-2" id="n">N<span>Nitrogen</span></div>
+
+            <div data-pos="8" data-nb="15.999" class="type-5 cat-2" id="o">O<span>Oxygen</span></div>
+            <div data-pos="9" data-nb="18.998" class="type-5 cat-2" id="f">F<span>Fluorine</span></div>
+            <div data-pos="10" data-nb="20.180" class="type-2 cat-2" id="ne">Ne<span>Neon</span></div>
+
+            <!-- ROW 3 -->
+
+            <div data-pos="11" data-nb="22.990" class="type-3 cat-0" id="na">Na<span>Sodium</span></div>
+            <div data-pos="12" data-nb="24.305" class="type-4 cat-0" id="mg">Mg<span>Magnesium</span></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div data-pos="13" data-nb="26.982" class="type-7 cat-0" id="al">Al<span>Aluminium</span></div>
+            <div data-pos="14" data-nb="28.086" class="type-5 cat-0" id="si">Si<span>Silicon</span></div>
+            <div data-pos="15" data-nb="30.974" class="type-5 cat-0" id="p">P<span>Phosphorus</span></div>
+
+            <div data-pos="16" data-nb="32.065" class="type-5 cat-0" id="s">S<span>Sulfur</span></div>
+            <div data-pos="17" data-nb="35.453" class="type-5 cat-2" id="cl">Cl<span>Chlorine</span></div>
+            <div data-pos="18" data-nb="39.948" class="type-2 cat-2" id="ar">Ar<span>Argon</span></div>
+
+            <!-- ROW 4 -->
+
+            <div data-pos="19" data-nb="39.098" class="type-3 cat-0" id="k">K<span>Potassium</span></div>
+            <div data-pos="20" data-nb="40.078" class="type-4 cat-0" id="ca">Ca<span>Calcium</span></div>
+            <div data-pos="21" data-nb="44.956" class="type-6 cat-0" id="sc">Sc<span>Scandium</span></div>
+            <div data-pos="22" data-nb="47.867" class="type-6 cat-0" id="ti">Ti<span>Titanium</span></div>
+            <div data-pos="23" data-nb="50.942" class="type-6 cat-0" id="v">V<span>Vanadium</span></div>
+
+            <div data-pos="24" data-nb="51.996" class="type-6 cat-0" id="cr">Cr<span>Chromium</span></div>
+            <div data-pos="25" data-nb="54.938" class="type-6 cat-0" id="mn">Mn<span>Manganese</span></div>
+            <div data-pos="26" data-nb="55.845" class="type-6 cat-0" id="fe">Fe<span>Iron</span></div>
+            <div data-pos="27" data-nb="58.933" class="type-6 cat-0" id="co">Co<span>Cobalt</span></div>
+            <div data-pos="28" data-nb="58.693" class="type-6 cat-0">Ni<span>Nickel</span></div>
+
+            <div data-pos="29" data-nb="63.546" class="type-6 cat-0" id="cu">Cu<span>Copper</span></div>
+            <div data-pos="30" data-nb="65.39" class="type-7 cat-0" id="zn">Zn<span>Zinc</span></div>
+            <div data-pos="31" data-nb="69.723" class="type-7 cat-0" id="ga">Ga<span>Gallium</span></div>
+            <div data-pos="32" data-nb="72.64" class="type-7 cat-0" id="ge">Ge<span>Germanium</span></div>
+            <div data-pos="33" data-nb="74.922" class="type-5 cat-0" id="as">As<span>Arsenic</span></div>
+
+            <div data-pos="34" data-nb="78.96" class="type-5 cat-0" id="se">Se<span>Selenium</span></div>
+            <div data-pos="35" data-nb="79.904" class="type-5 cat-1" id="br">Br<span>Bromine</span></div>
+            <div data-pos="36" data-nb="83.80" class="type-2 cat-2" id="kr">Kr<span>Krypton</span></div>
+
+            <!-- ROW 5 -->
+
+            <div data-pos="37" data-nb="85.468" class="type-3 cat-0" id="rb">Rb<span>Rubidium</span></div>
+            <div data-pos="38" data-nb="87.62" class="type-4 cat-0" id="sr">Sr<span>Strontium</span></div>
+            <div data-pos="39" data-nb="88.906" class="type-6 cat-0" id="y">Y<span>Yttrium</span></div>
+            <div data-pos="40" data-nb="91.224" class="type-6 cat-0" id="zr">Zr<span>Zirconium</span></div>
+            <div data-pos="41" data-nb="92.906" class="type-6 cat-0" id="nb">Nb<span>Niobium</span></div>
+
+            <div data-pos="42" data-nb="95.94" class="type-6 cat-0" id="mo">Mo<span>Molybdenum</span></div>
+            <div data-pos="43" data-nb="(96)" class="type-6 cat-0" id="tc">Tc<span>Technetium</span></div>
+            <div data-pos="44" data-nb="101.07" class="type-6 cat-0" id="ru">Ru<span>Ruthenium</span></div>
+            <div data-pos="45" data-nb="102.91" class="type-6 cat-0" id="rh">Rh<span>Rhodium</span></div>
+            <div data-pos="46" data-nb="106.42" class="type-6 cat-0" id="pd">Pd<span>Palladium</span></div>
+
+            <div data-pos="47" data-nb="107.87" class="type-6 cat-0" id="ag">Ag<span>Silver</span></div>
+            <div data-pos="48" data-nb="112.41" class="type-7 cat-0" id="cd">Cd<span>Cadmium</span></div>
+            <div data-pos="49" data-nb="114.82" class="type-7 cat-0" id="in">In<span>Indium</span></div>
+            <div data-pos="50" data-nb="118.71" class="type-7 cat-0" id="sn">Sn<span>Tin</span></div>
+            <div data-pos="51" data-nb="121.76" class="type-7 cat-0" id="sb">Sb<span>Antimony</span></div>
+
+            <div data-pos="52" data-nb="127.60" class="type-5 cat-0" id="te">Te<span>Tellurium</span></div>
+            <div data-pos="53" data-nb="126.90" class="type-5 cat-0" id="i">I<span>Iodine</span></div>
+            <div data-pos="54" data-nb="131.29" class="type-2 cat-2" id="xe">Xe<span>Xenon</span></div>
+
+            <!-- ROW 6 -->
+
+            <div data-pos="55" data-nb="132.91" class="type-3 cat-0" id="cs">Cs<span>Caesium</span></div>
+            <div data-pos="56" data-nb="137.33" class="type-4 cat-0" id="ba">Ba<span>Barium</span></div>
+            <div data-pos="57-71" class="type-8">La-Lu<span>Lanthanide</span></div>
+            <div data-pos="72" data-nb="178.49" class="type-6 cat-0" id="hf">Hf<span>Hafnium</span></div>
+            <div data-pos="73" data-nb="180.95" class="type-6 cat-0" id="ta">Ta<span>Tantalum</span></div>
+
+            <div data-pos="74" data-nb="183.64" class="type-6 cat-0" id="w">W<span>Tungsten</span></div>
+            <div data-pos="75" data-nb="186.21" class="type-6 cat-0" id="re">Re<span>Rhenium</span></div>
+            <div data-pos="76" data-nb="190.23" class="type-6 cat-0" id="os">Os<span>Osmium</span></div>
+            <div data-pos="77" data-nb="192.22" class="type-6 cat-0" id="ir">Ir<span>Iridium</span></div>
+            <div data-pos="78" data-nb="195.08" class="type-6 cat-0" id="pt">Pt<span>Platinum</span></div>
+
+            <div data-pos="79" data-nb="196.97" class="type-6 cat-0" id="au">Au<span>Gold</span></div>
+            <div data-pos="80" data-nb="200.59" class="type-7 cat-1" id="hg">Hg<span>Mercury</span></div>
+            <div data-pos="81" data-nb="204.38" class="type-7 cat-0" id="tl">Tl<span>Thallium</span></div>
+            <div data-pos="82" data-nb="207.2" class="type-7 cat-0" id="pb">Pb<span>Lead</span></div>
+            <div data-pos="83" data-nb="208.96" class="type-7 cat-0" id="bi">Bi<span>Bismuth</span></div>
+
+            <div data-pos="84" data-nb="(209)" class="type-7 cat-0" id="po">Po<span>Polonium</span></div>
+            <div data-pos="85" data-nb="(210)" class="type-5 cat-0" id="at">At<span>Astatine</span></div>
+            <div data-pos="86" data-nb="(222)" class="type-2 cat-2" id="rn">Rn<span>Radon</span></div>
+
+            <!-- ROW 7 -->
+
+            <div data-pos="87" data-nb="(223)" class="type-3 cat-0" id="fr">Fr<span>Francium</span></div>
+            <div data-pos="88" data-nb="(226)" class="type-4 cat-0" id="ra">Ra<span>Radium</span></div>
+            <div data-pos="89-103" class="type-9">Ac-Lr<span>Actinide</span></div>
+            <div data-pos="104" data-nb="(261)" class="type-6 cat-3" id="rf">Rf<span>Rutherfodum</span></div>
+            <div data-pos="105" data-nb="(262)" class="type-6 cat-3" id="db">Db<span>Dubnium</span></div>
+
+            <div data-pos="106" data-nb="(266)" class="type-6 cat-3" id="sg">Sg<span>Seaborgium</span></div>
+            <div data-pos="107" data-nb="(264)" class="type-6 cat-3" id="bh">Bh<span>Bohrium</span></div>
+            <div data-pos="108" data-nb="(277)" class="type-6 cat-3" id="hs">Hs<span>Hassium</span></div>
+            <div data-pos="109" data-nb="(268)" class="type-6 cat-3" id="mt">Mt<span>Meitnerium</span></div>
+            <div data-pos="110" data-nb="(281)" class="type-6 cat-3" id="ds">Ds<span>Damstadium</span></div>
+
+            <div data-pos="111" data-nb="(272)" class="type-6 cat-3" id="rg">Rg<span>Roentgenium</span></div>
+            <div data-pos="112" data-nb="(285)" class="type-7 cat-3" id="uub">Uub<span>Ununbium</span></div>
+            <div data-pos="113" data-nb="(285)" class="type-7 cat-3" id="uut">Uut<span>Ununtrium</span></div>
+            <div data-pos="114" data-nb="(289)" class="type-7 cat-3" id="uuq">Uuq<span>Ununquadium</span></div>
+            <div data-pos="115" data-nb="(289)" class="type-7 cat-3" id="uup">Uup<span>Ununpentium</span></div>
+
+            <div data-pos="115" data-nb="(289)" class="type-7 cat-3" id="uuh">Uuh<span>Ununhexium</span></div>
+            <div data-pos="115" data-nb="(289)" class="type-0 cat-3" id="uus">Uus<span>Ununseptum</span></div>
+            <div data-pos="115" data-nb="(289)" class="type-2 cat-3" id="uuo">Uuo<span>Ununoctium</span></div>
+
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div data-pos="57" data-nb="138.900" class="type-8 cat-0">La<span>Lanthanum</span></div>
+            <div data-pos="58" data-nb="140.116" class="type-8 cat-0">Ce<span>Cerium</span></div>
+            <div data-pos="59" data-nb="140.900" class="type-8 cat-0">Pr<span>Praseodym</span></div>
+            <div data-pos="60" data-nb="144.242" class="type-8 cat-0">Nd<span>Neodymium</span></div>
+            <div data-pos="61" data-nb="145.000" class="type-8 cat-0">Pm<span>Promethium</span></div>
+            <div data-pos="61" data-nb="150.360" class="type-8 cat-0">Sm<span>Samarium</span></div>
+            <div data-pos="63" data-nb="151.964" class="type-8 cat-0">Eu<span>Europium</span></div>
+            <div data-pos="64" data-nb="157.250" class="type-8 cat-0">Gd<span>Gadoinium</span></div>
+            <div data-pos="65" data-nb="158.920" class="type-8 cat-0">Tb<span>Terbium</span></div>
+            <div data-pos="66" data-nb="162.500" class="type-8 cat-0">Dy<span>Dysprosium</span></div>
+            <div data-pos="67" data-nb="164.930" class="type-8 cat-0">Ho<span>Holmium</span></div>
+            <div data-pos="68" data-nb="167.259" class="type-8 cat-0">Er<span>Erbium</span></div>
+            <div data-pos="69" data-nb="168.930" class="type-8 cat-0">Tm<span>Thulium</span></div>
+            <div data-pos="70" data-nb="173.054" class="type-8 cat-0">Yb<span>Ytterbium</span></div>
+            <div data-pos="71" data-nb="174.960" class="type-8 cat-0">Lu<span>Lutetium</span></div>
+
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div data-pos="89" data-nb="227.000" class="type-9 cat-0">Ac<span>Actinium</span></div>
+            <div data-pos="90" data-nb="232.030" class="type-9 cat-0">Th<span>Thorium</span></div>
+            <div data-pos="91" data-nb="231.030" class="type-9 cat-0">Pa<span>Protactinium</span></div>
+            <div data-pos="92" data-nb="238.020" class="type-9 cat-0">U<span>Uranium</span></div>
+            <div data-pos="93" data-nb="237.000" class="type-9 cat-0">Np<span>Neptunium</span></div>
+            <div data-pos="94" data-nb="244.000" class="type-9 cat-0">Pu<span>Plutonium</span></div>
+            <div data-pos="95" data-nb="243.000" class="type-9 cat-0">Am<span>Americium</span></div>
+            <div data-pos="96" data-nb="247.000" class="type-9 cat-0">Cm<span>Curium</span></div>
+            <div data-pos="97" data-nb="247.000" class="type-9 cat-0">Bk<span>Berkelium</span></div>
+            <div data-pos="98" data-nb="251.000" class="type-9 cat-0">Cf<span>Caifomium</span></div>
+            <div data-pos="99" data-nb="252.000" class="type-9 cat-0">Es<span>Ensteinium</span></div>
+            <div data-pos="100" data-nb="257.000" class="type-9 cat-0">Fm<span>Fermium</span></div>
+            <div data-pos="101" data-nb="258.000" class="type-9 cat-0">Md<span>Memdelevium</span></div>
+            <div data-pos="102" data-nb="259.000" class="type-9 cat-0">No<span>Nobelium</span></div>
+            <div data-pos="103" data-nb="262.000" class="type-9 cat-0">Lr<span>Lawencium</span></div>
+        </ul>
+
+        <div class="legend">
+            <ul class="list-1">
+                <div class="cat-0"><span>C</span>Solid</div>
+                <div class="cat-1"><span>Hg</span>Liquid</div>
+                <div class="cat-2"><span>H</span>Gas</div>
+                <div class="cat-3"><span>Rf</span>Unknown</div>
+            </ul>
+
+            <ul class="list-2">
+                <div class="type-3">Alkadi metals</div>
+
+                <div class="type-8">Lanthanoids</div>
+                <div class="type-9">Actinoids</div>
+                <div class="type-7">Poor metals</div>
+                <div class="type-2">Noble gases</div>
+                <div class="type-6">Transition metals</div>
+                <div class="type-5">Other non-metals</div>
+                <div class="type-4">Alkadine earth metals</div>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Ligth box -->
+    <section>
+        <article id="1" class="lightbox">
+            <nav class="close_tab">
+                <a href="#_">x</a>
+            </nav>
+
+            <div class="container_tips_table table_background">
+                <div class="title_tips_table">
+                    <img src="images/nguyenTo/1.jpg">
+                    <h1>Hydro</h1>
+                </div>
+
+                <div class="content_tips_table">
+                    <div class="tieuDe">Tổng quan</div>
+                    <div class="thongTin">
+                        <div class="tieuDeThuocTinh">
+                            <div class="col-50">Tên tiếng Anh:</div>
+                            <div class="col-50">Tên tiếng Latin:</div>
+                        </div>
+                        <div class="noiDungThuocTinh">
+                            <div class="col-50">Hydro</div>
+                            <div class="col-50 column-2">Hydro</div>
+                        </div>
+                        <hr class="duongChiaMauXanh" />
+
+                        <div class="tieuDeThuocTinh">
+                            <div class="col-50">Năm phát hiện:</div>
+                            <div class="col-50">Số liệu CAS:</div>
+                        </div>
+                        <div class="noiDungThuocTinh">
+                            <div class="col-50">1825</div>
+                            <div class="col-50 column-2">7429-90-5</div>
+                        </div>
+                        <hr class="duongChiaMauXanh" />
+
+                        <div class="tieuDeThuocTinh">
+                            <div class="col-100">Người phát hiện:</div>
+                        </div>
+                        <div class="noiDungThuocTinh">
+                            <div class="col-100">Hans Christian</div>
+                        </div>
+                        <hr class="duongChiaMauXanh" />
+
+                        <div class="tieuDeThuocTinh">
+                            <div class="col-50">Mạng tinh thể:</div>
+                            <div class="col-50">Hằng số mạng tinh thể:</div>
+                        </div>
+                        <div class="noiDungThuocTinh">
+                            <div class="col-50">FCC</div>
+                            <div class="col-50 column-2">4.05</div>
+                        </div>
+                        <hr class="duongChiaMauXanh" />
+
+                        <div class="tieuDeVaNoiDung">
+                            <div class="col-30 mauSacTieuDe">Nguồn gốc:</div>
+                            <div class="col-70">Bauxite (oxide)</div>
+                        </div>
+
+                        <div class="tieuDeVaNoiDung">
+                            <div class="col-30 mauSacTieuDe">Màu sắc:</div>
+                            <div class="col-70">Bạc</div>
+                        </div>
+
+                        <section class="baCot">
+                            <article class="cot">
+                                <p class="tieuDeBaCot">Electrons</p>
+                                <p>13</p>
+                            </article>
+
+                            <article class="cot">
+                                <p class="tieuDeBaCot">Protons</p>
+                                <p>13</p>
+                            </article>
+
+                            <article class="cot">
+                                <p class="tieuDeBaCot">Neutrons</p>
+                                <p>14</p>
+                            </article>
+                        </section>
+
+                    </div>
+
+                    <div class="tieuDe">Tính chất</div>
+                    <div class="thongTin">
+                        <div class="tieuDeThuocTinh">
+                            <div class="col-50">Hóa trị:</div>
+                            <div class="col-50">Nhóm:</div>
+                        </div>
+                        <div class="noiDungThuocTinh">
+                            <div class="col-50">3</div>
+                            <div class="col-50 column-2">1</div>
+                        </div>
+                        <hr class="duongChiaMauXanh" />
+
+                        <div class="tieuDeThuocTinh">
+                            <div class="col-50">Trọng lượng nguyên tử:</div>
+                            <div class="col-50">Mật độ phân tử:</div>
+                        </div>
+                        <div class="noiDungThuocTinh">
+                            <div class="col-50">26.98 (g/mol)</div>
+                            <div class="col-50 column-2">2.7 (g/cm^3)</div>
+                        </div>
+                        <hr class="duongChiaMauXanh" />
+
+                        <div class="tieuDeThuocTinh">
+                            <div class="col-50">Nhóm:</div>
+                            <div class="col-50">Nhóm cũ:</div>
+                        </div>
+
+                        <div class="noiDungThuocTinh">
+                            <div class="col-50">1</div>
+                            <div class="col-50 column-2">IA</div>
+                        </div>
+                        <hr class="duongChiaMauXanh" />
+
+                        <div class="tieuDeThuocTinh">
+                            <div class="col-50">Điểm nóng chảy:</div>
+                            <div class="col-50">Nhiệt độ sôi:</div>
+                        </div>
+                        <div class="noiDungThuocTinh">
+                            <div class="col-50">14.01 K</div>
+                            <div class="col-50 column-2">20.28 K</div>
+                        </div>
+                        <hr class="duongChiaMauXanh" />
+
+                        <div class="tieuDeThuocTinh">
+                            <div class="col-50">Số oxi hóa:</div>
+                            <div class="col-50">Điện tích:</div>
+                        </div>
+                        <div class="noiDungThuocTinh">
+                            <div class="col-50">+- 1</div>
+                            <div class="col-50 column-2">+- 1</div>
+                        </div>
+                        <hr class="duongChiaMauXanh" />
+
+
+                        <div class="tieuDeThuocTinh">
+                            <div class="col-50">Bán kính nguyên tử:</div>
+                            <div class="col-50">Bán kính cộng hóa trị:</div>
+                        </div>
+                        <div class="noiDungThuocTinh">
+                            <div class="col-50">79 &#8491;</div>
+                            <div class="col-50 column-2">32 &#8491;</div>
+                        </div>
+                        <hr class="duongChiaMauXanh" />
+
+                        <div class="tieuDeVaNoiDung">
+                            <div class="col-50 mauSacTieuDe">Cấu hình electron:</div>
+                            <div class="col-50">1s1</div>
+                        </div>
+                    </div>
+
+                    <div class="tieuDe">Nơi phổ biến</div>
+                    <div class="thongTin">
+                        <div class="tieuDeVaNoiDung">
+                            <div class="col-50 mauSacTieuDe">Vũ trụ chứa:</div>
+                            <div class="col-50">75%</div>
+                        </div>
+                        <div class="tieuDeVaNoiDung">
+                            <div class="col-50 mauSacTieuDe">Mặt trời chứa:</div>
+                            <div class="col-50">75%</div>
+                        </div>
+                        <div class="tieuDeVaNoiDung">
+                            <div class="col-50 mauSacTieuDe">Đại dương chứa:</div>
+                            <div class="col-50">11%</div>
+                        </div>
+                        <div class="tieuDeVaNoiDung">
+                            <div class="col-50 mauSacTieuDe">Cơ thể con người chứa:</div>
+                            <div class="col-50">10%</div>
+                        </div>
+                        <div class="tieuDeVaNoiDung">
+                            <div class="col-50 mauSacTieuDe">Vỏ Trái Đất chứa:</div>
+                            <div class="col-50">0.15%</div>
+                        </div>
+                        <div class="tieuDeVaNoiDung">
+                            <div class="col-50 mauSacTieuDe">Thiên thạch chứa:</div>
+                            <div class="col-50">2.4%</div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="tieuDe">Các tính chất khác</div>
+                    <div class="thongTin">
+                        <div class="tieuDeVaNoiDung">
+                            <div class="col-50 mauSacTieuDe">Thể tích riêng:</div>
+                            <div class="col-50">14.1</div>
+                        </div>
+
+                        <div class="tieuDeVaNoiDung">
+                            <div class="col-50 mauSacTieuDe">Nhiệt dung riêng:</div>
+                            <div class="col-50">14.267</div>
+                        </div>
+
+                        <div class="tieuDeVaNoiDung">
+                            <div class="col-50 mauSacTieuDe">Nhiệt tổng hợp:</div>
+                            <div class="col-50">1</div>
+                        </div>
+
+                        <div class="tieuDeVaNoiDung">
+                            <div class="col-50 mauSacTieuDe">Nhiệt hóa hơi:</div>
+                            <div class="col-50"></div>
+                        </div>
+
+                        <div class="tieuDeVaNoiDung">
+                            <div class="col-50 mauSacTieuDe">Độ dẫn nhiệt</div>
+                            <div class="col-50"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </article>
+    </section>
+
+    <footer>
+        Copyright &copy; 2018 AHA Team
+    </footer>
+</body>

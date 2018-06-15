@@ -1,0 +1,139 @@
+body > .baiHoc {
+    background-color: #fafafa;
+    line-height: 1.15;
+    font-size: 16px;
+    font-family: 'Times new roman', sans-serif;
+    height: 100%;
+    display: block;
+    margin: auto auto;
+    width: 900px;
+    max-width: 1000px;
+}
+
+
+/*Header _ Tieu de bai hoc */
+
+header.tieuDeBaiHoc {
+    font-family: 'Times New Roman', sans-serif;
+    text-align: center;
+    width: auto;
+    font-weight: bold;
+    color: orangered;
+}
+
+
+#logoTrangChu {
+    position: relative;
+    display: block;
+    margin: 0 auto 0 70px;
+    left: 0;
+}
+
+
+#header {
+    /* background-color: #2AFFFF;*/
+    /*background-color: white;*/
+    background-color: #f4f4f4;
+    /*background: linear-gradient(grey, white);*/
+}
+
+
+/*section _ Noi dung bai hoc*/
+
+.tieuDeNoiDung {
+    font-family: 'Times new roman';
+    text-align: left;
+    color: blueviolet;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/*Article cua phan bai giang*/
+
+.baiHoc > section > dl > article {
+    margin-top: 20px;
+}
+
+/*2 cot so sanh*/
+
+.tableBaiHoc {
+    border: 0;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+#soSanh tr th {
+    text-align: center;
+    color: orangered;
+    border-bottom: 1px solid orangered;
+    border-left: 1px solid orangered;
+    border-right: 1px solid orangered;
+}
+
+#soSanh tr td {
+    padding-left: 5px;
+    border: 1px solid orangered;
+}
+
+.cot3 {
+    padding-left: 10px;
+}
+
+#soSanh #empty {
+    border: none;
+}
+
+/*Duong dan toi bai hoc tiep theo*/
+
+.row {
+    margin: 5px;
+}
+
+.baiHocTiepTheo {
+    text-decoration: underline;
+    font-style: italic;
+    color: blueviolet;
+}
+
+
+/* Duong dan toi cac bai hoc duoc cap nhat sau */
+
+.capNhatsau {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    color: red;
+}
+
+.capNhatSau a {
+    color: red;
+}
+
+/*font size cho badge info*/
+
+.badge {
+    font-size: 15px;
+    margin: 10px;
+}
+
+/* Chinh boder cua cho phan vi du */
+
+.border {
+    text-align: left;
+}
+
+li {
+    margin: 5px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-size: 1em;
+    font-family: 'Open sans', sans-serif;
+    color: #90A4AE;
+    position: relative;
+    margin-top: 10px;
+}

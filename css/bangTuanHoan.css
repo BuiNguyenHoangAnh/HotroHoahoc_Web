@@ -1,0 +1,27 @@
+
+#logoTrangChu {
+    position: relative;
+    display: block;
+    margin: 0 auto 0 70px;
+    left: 0;
+}
+
+
+header {
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+
+/* Footer */
+footer {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-size: 1em;
+    font-family: 'Open sans', sans-serif;
+    color: #90A4AE;
+    position: relative;
+    margin-top: 10px;
+}

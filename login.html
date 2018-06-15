@@ -1,146 +1,62 @@
 <!DOCTYPE html>
-<html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js no-svg">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="profile" href="http://gmpg.org/xfn/11">
 
-        <script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
-		<title>Đăng nhập - Hỗ trợ học tốt Hóa học</title>
 
-		<style type="text/css">
-			img.wp-smiley,
-			img.emoji {
-				display: inline !important;
-				border: none !important;
-				box-shadow: none !important;
-				height: 1em !important;
-				width: 1em !important;
-				margin: 0 .07em !important;
-				vertical-align: -0.1em !important;
-				background: none !important;
-				padding: 0 !important;
-			}
-		</style>
-		<link rel="stylesheet" type="text/css" href="css/login.css">
-    </head>
+<html>
 
-    <body>
+<head>
+    <link href="css/reset.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Baumans|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <link href="css/login.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-			ga('create', 'UA-104286708-1', 'auto');
-			ga('send', 'pageview');
-		</script>	
+<body>
+    <div class="blueLine"></div>
+    <header>
+        <a href="#" id="logoTrangChu"><img src="images/logo.png" alt="Logo"/></a>
+        <a href="#" id="textTrangChu">&#8592; Trang chủ</a>
+    </header>
 
-        <div id="preloader">
-            <div id="status">&nbsp;</div>
+    <div class="main">
+        <div class="container content">
+            <div>
+                <img src="images/logo.png" alt="Logo" />
+            </div>
+            
+            <div class="loi">
+                <div class="loiTaiKhoan">(*) Sai tên tài khoản hoặc mật khẩu</div>
+            </div>
+
+            <div class="title">
+                <div class="grayLine"></div>
+                <div>Dùng tài khoản của bạn</div>
+                <div class="grayLine"></div>
+            </div>
+
+            <form method="post" action="#">
+                <input type="text" name="userName" placeholder="Tên tài khoản" required><br/>
+                <input type="password" name="password" placeholder="Mật khẩu" required><br/>
+                <button type="submit"><i class="fa fa-sign-in-alt"></i> Đăng nhập</button>
+            </form>
+            <a href="#">Quên mật khẩu?</a><br/>
+            <div class="title">
+                <div class="grayLine"></div>
+                <div>Chưa có tài khoản?</div>
+                <div class="grayLine"></div>
+            </div>
+            <form method="post" action="#">
+                <button type="submit" style="background-color: white; border: 1px solid red; color: red;"><i class="fa fa-user-plus"></i>
+ Đăng ký ngay</button>
+            </form>
         </div>
-		<header class="header">
-		    <div class="container">
-		        <div class="col-sm-6 col-xs-8 header__left">
-		            <div class="logo">
-		                <a href="#" title="logo">
-		                    <img src="images/logo.png" alt="logo">
-		                </a>
-		        </div>
-		        </div>
-		        <div class="col-sm-6 col-xs-4 header__right">
-		            <nav class="navbar">
-		                <div class="row">
-		                    <div class="navbar-mobile-menu">
-		                        <div class="button-menu">
-		                            <span></span>
-		                            <span></span>
-		                            <span></span>
-		                        </div>
-		                    </div>
-		                    <div class="navBlock">
-		                        <div class="container">
-		                            <a href="#">
-		                                <i class="theme-icon-banner-nav"></i>
-		                            </a>
-		                            <div class="listItems">
-		                                <div class="menu-main-menu-container">
-		                                	<ul id="menu-main-menu" class="menu">
-		                                		<li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76">
-		                                			<a href="news.html">Tin tức</a>
-		                                		</li>
-												<li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77">
-													<a href="knowledge.html">Kiến thức</a>
-												</li>
-												<li id="menu-item-82" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82">
-													<a href="contact.html">Liên lạc</a>
-												</li>
-												<li id="menu-item-279" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-184 current_page_item menu-item-279">
-													<a href="https://docs.google.com/forms/d/e/1FAIpQLSc7YxYyT3Cf0Q0GiFKhrZEWqaN2-zF3K3h0Bp4Uvj6LoWu4Lw/viewform">Đóng góp</a>
-												</li>
-												<li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78">
-													<a href="login.html">Đăng nhập</a>
-												</li>
-											</ul>
-										</div>                            
-									</div>
-		                        </div>
-		                    </div>
-		                </div>
-		            </nav>
-		        </div>
-		    </div>
-		</header>
+    </div>
 
-		<div class="container" style="padding-left: 20%; padding-top: 50px; padding-bottom: 50px; height: 300px">
-			<div>
-				<div class="container">
-					<div class="col-md-3">
-						<span>Tên đăng nhập</span>
-					</div>
-					<div class="col-md-5">
-						<input type="text" name="username" style="border-radius: 20px">
-					</div>
-					<div class="col-md-4"></div>
-				</div>
-			</div>
-			<br>
-			<div>
-				<div class="container">
-					<div class="col-md-3">
-						<span>Mật khẩu</span>
-					</div>
-					<div class="col-md-5">
-						<input type="password" name="password" style="border-radius: 20px">
-					</div>
-					<div class="col-md-4"></div>
-				</div>
-			</div>
-		</div>
-<!-- /header -->
-    <div class="copyright">
-	<span>COPYRIGHT &copy AHA Team 2018</span>
-</div>
-<footer class="footer">
-	<div class="container">
-		<div class="copyright-mobile">
-			<span>COPYRIGHT &copy AHA Team 2018</span>
-		</div>
-	</div>
-	<div class="container">
-		<div class="col-xs-12 footer__right">
-			<div class="footer__social">
-			    <a target="_blank" href="#" title="facebook"><i class="fa fa-facebook"></i></a>
-                <a target="_blank" href="#" title="linkedin"><i class="fa fa-linkedin"></i></a>
-			</div>
-		</div>
-	</div>
-</footer>
-
-		<script type="text/javascript" src="js/jquery/jquery.js"></script>
-		<script type='text/javascript' src="js/jquery/jquery-migrate.min.js"></script>
-		<script type="text/javascript" src="js/wp-emoji-release.min.js"></script>
-		<script type="text/javascript" src="js/custom.js"></script>
+    <footer>
+        Copyright &copy; 2018 AHA Team
+    </footer>
 </body>
+
 </html>
